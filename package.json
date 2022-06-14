@@ -1,0 +1,33 @@
+{
+  "name": "modal-view-tech-blog-estrada",
+  "version": "1.0.0",
+  "description": "AS A developer who writes about tech I WANT a CMS-style blog site SO THAT I can publish articles, blog posts, and my thoughts and opinions",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmarkestrad/Modal-View-Tech-Blog.git"
+  },
+  "keywords": [
+    "Tech",
+    "Blog"
+  ],
+  "author": "H. Mark Estrada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmarkestrad/Modal-View-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/hmarkestrad/Modal-View-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  }
+}
