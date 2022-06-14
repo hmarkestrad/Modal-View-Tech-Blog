@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/github/repo-size/hmarkestrad/Modal-View-Tech-Blog"/>
 <img src="https://img.shields.io/github/languages/top/hmarkestrad/Modal-View-Tech-Blog"/>
 <img src="https://img.shields.io/github/issues/hmarkestrad/Modal-View-Tech-Blog"/>
-<img src="https://img.shields.io/github/last-commit/Modal-View-Tech-Blog"/>
+<img src="https://img.shields.io/github/hmarkestrad/Modal-View-Tech-Blog"/>
 </p>
   
 ## Table of Contents
@@ -22,9 +22,6 @@ This build is a CMS-style blog site similar to a Wordpress site, where developer
   
 ## Usage
 When the server is running, you can access the application at `http://localhost:5000/`.  
-    
-## Screenshot:  
-![Team-Profile-Generator](/public/Screenshot.png)  
   
 ## Contributions
 H. Mark Estrada
