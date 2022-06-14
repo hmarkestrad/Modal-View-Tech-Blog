@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 5000;
 const handlebars = require('express-handlebars');
 
 //Sets our app to use the handlebars engine
