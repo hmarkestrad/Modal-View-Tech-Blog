@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/github/repo-size/hmarkestrad/Modal-View-Tech-Blog"/>
 <img src="https://img.shields.io/github/languages/top/hmarkestrad/Modal-View-Tech-Blog"/>
 <img src="https://img.shields.io/github/issues/hmarkestrad/Modal-View-Tech-Blog"/>
-<img src="https://img.shields.io/github/hmarkestrad/Modal-View-Tech-Blog"/>
+<img src="https://img.shields.io/github/last-commit/hmarkestrad/Modal-View-Tech-Blog"/>
 </p>
   
 ## Table of Contents
