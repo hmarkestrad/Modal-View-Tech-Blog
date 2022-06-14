@@ -8,5 +8,4 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
   dialect: 'mysql'
 });
 
-db.sync({});
-module.exports = db;
+module.exports = sequelize;
