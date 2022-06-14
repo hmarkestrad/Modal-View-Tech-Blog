@@ -3,7 +3,7 @@ const routes = require('./controllers');
 const sequelize = require('./config/connection');
 const path = require('path');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -37,5 +37,5 @@ app.use(routes);
 
 // turn on connection to db and server
 sequelize.sync({ force: false }).then(() => {
-  app.listen(process.env.PORT || 5000, '0.0.0.0', () => console.log(`App listening on Port: http://localhost:${PORT}`));
+  app.listen(process.env.PORT || 3000, '0.0.0.0', () => console.log(`App listening on Port: http://localhost:${PORT}`));
 });
