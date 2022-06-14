@@ -19,4 +19,4 @@ res.render('main', {layout : 'index'});
 });
 
 //Makes the app listen to port 3000
-app.listen(port, () => console.log(`App listening to port: http://localhost:${port}`));
+app.listen(process.env.PORT || 3001, '0.0.0.0', () => console.log(`App listening to port: http://localhost:${port}`));
