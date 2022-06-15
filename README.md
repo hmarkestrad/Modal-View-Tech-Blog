@@ -34,8 +34,11 @@ H. Mark Estrada
 This application is covered by the MIT license. 
   
 ## Technologies
-![badge](https://img.shields.io/badge/Javascript-blue)
-![badge](https://img.shields.io/badge/jQuery-blue)
+![badge](https://img.shields.io/badge/-sequelize-orange)
+![badge](https://img.shields.io/badge/-JAWDB-orange)
+![badge](https://img.shields.io/badge/-MySQL2-orange)
+![badge](https://img.shields.io/badge/-express-orange)<br>
+![badge](https://img.shields.io/badge/-jQuery-blue)
 ![badge](https://img.shields.io/badge/-node.js-blue)
 ![badge](https://img.shields.io/badge/-inquirer-blue)
 ![badge](https://img.shields.io/badge/-json-blue)
