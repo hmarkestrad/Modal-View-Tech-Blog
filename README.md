@@ -24,7 +24,7 @@ This build is a CMS-style blog site similar to a Wordpress site, where developer
 When the server is running, you can access the application at `http://localhost:3030/`.
 
 ## Screenshot:  
-![Team-Profile-Generator](/public/screenshot.jpg)  
+![Modal-View-Tech-Blog](/public/screenshot.png)  
   
 ## Contributions
 H. Mark Estrada
