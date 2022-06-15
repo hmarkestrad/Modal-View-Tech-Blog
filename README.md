@@ -21,7 +21,10 @@
 This build is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The build this site completely from scratch and is deployed to Heroku.  
   
 ## Usage
-When the server is running, you can access the application at `http://localhost:5000/`.  
+When the server is running, you can access the application at `http://localhost:3030/`.
+
+## Screenshot:  
+![Team-Profile-Generator](/public/screenshot.jpg)  
   
 ## Contributions
 H. Mark Estrada
