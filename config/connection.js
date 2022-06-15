@@ -1,4 +1,3 @@
-import Sequelize from "sequelize";
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
