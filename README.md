@@ -21,7 +21,10 @@
 This build is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The build this site completely from scratch and is deployed to Heroku.  
   
 ## Usage
-When the server is running, you can access the application at `http://localhost:5000/`.  
+When the server is running, you can access the application at `http://localhost:3030/`.
+
+## Screenshot:  
+![Modal-View-Tech-Blog](/public/screenshot.png)  
   
 ## Contributions
 H. Mark Estrada
@@ -31,8 +34,12 @@ H. Mark Estrada
 This application is covered by the MIT license. 
   
 ## Technologies
-![badge](https://img.shields.io/badge/Javascript-blue)
-![badge](https://img.shields.io/badge/jQuery-blue)
+![badge](https://img.shields.io/badge/-sequelize-orange)
+![badge](https://img.shields.io/badge/-JawsDB-orange)
+![badge](https://img.shields.io/badge/-Handlebars-orange)
+![badge](https://img.shields.io/badge/-MySQL2-orange)
+![badge](https://img.shields.io/badge/-express-orange)<br>
+![badge](https://img.shields.io/badge/-jQuery-blue)
 ![badge](https://img.shields.io/badge/-node.js-blue)
 ![badge](https://img.shields.io/badge/-inquirer-blue)
 ![badge](https://img.shields.io/badge/-json-blue)
