@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,39 +9,29 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>Tech Blog - Estrada</title>
     <style>
-        .navbar-brand, .nav-link {
-    font-size: 2rem;
-}
-
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
-  .list-group-item {
-    border: 1px solid rgb(0, 187, 255);
-  }
+        .navbar-brand, .nav-link { font-size: 2rem; }
+        .list-group-item { border: 1px solid rgb(0, 187, 255); }
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem; }
     </style>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-xl navbar-light bg-light mb-5">
         <div class="container">
             <a class="navbar-brand" href="/">Tech Blog - Estrada</a>
-            <div>
-                <div class="d-flex">
-                    {{#if loggedIn}}
-                    <a href="/dashboard" class="nav-link">Dashboard</a>
-                    <a class="nav-link" id="logout">Log out</a>
-                    {{else}}
-                    <a class="nav-link" href="/login">Log in</a>
-                    {{/if}}
-                </div>
+            <div class="d-flex">
+                {{#if loggedIn}}
+                <a href="/dashboard" class="nav-link">Dashboard</a>
+                <a class="nav-link" id="logout">Log out</a>
+                {{else}}
+                <a class="nav-link" href="/login">Log in</a>
+                {{/if}}
             </div>
         </div>
     </nav>
-
     <div class="container">
         <main class="mb-5">
             {{{ body }}}
@@ -58,6 +47,5 @@
     {{#if loggedIn}}
     <script src="/js/logout.js"></script>
     {{/if}}
-
 </body>
 </html>
