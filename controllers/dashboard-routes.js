@@ -2,13 +2,9 @@ const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
-
 router.get('/', withAuth, (req, res) => {
-
     Post.findAll({
-        where: {
-            user_id: req.session.user_id
-        },
+        where: { user_id: req.session.user_id },
         attributes: [
             'id',
             'content',
@@ -70,14 +66,9 @@ router.get('/edit/:id', withAuth, (req, res) => {
         .then(dbPostData => {
           if (!dbPostData) {
             res.status(404).json({ message: 'No post found with this id' });
-            return;
-          }
-    
-          // serialize the data
-          const post = dbPostData.get({ plain: true });
-    
-          // pass data to template
-          res.render('edit-post', {
+            return; }
+              const post = dbPostData.get({ plain: true });
+              res.render('edit-post', {
             post,
             loggedIn: req.session.loggedIn
           });
@@ -85,7 +76,6 @@ router.get('/edit/:id', withAuth, (req, res) => {
         .catch(err => {
           console.log(err);
           res.status(500).json(err);
-        });
-})
+        }); })
 
 module.exports = router;

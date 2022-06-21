@@ -1,12 +1,9 @@
 async function editPostHandler(event) {
     event.preventDefault();
 
-    const id = window.location.toString().split("/")[
-        window.location.toString().split("/").length - 1
-    ];
-
     const title = document.getElementById("post-title").value.trim();
     const content = document.querySelector('.post-content').value;
+    const id = window.location.toString().split("/")[ window.location.toString().split("/").length - 1 ];
 
     console.log(title, " ", content)
 
@@ -16,16 +13,9 @@ async function editPostHandler(event) {
             title,
             content
         }),
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    });
+        headers: { 'Content-Type': 'application/json' } });
 
-    if (response.ok) {
-        document.location.replace('/dashboard');
-    } else {
-        alert(response.statusText);
-    }
-}
+    if (response.ok) { document.location.replace('/dashboard'); } 
+    else { alert(response.statusText); } }
 
 document.querySelector(".edit-post-form").addEventListener("submit", editPostHandler);
