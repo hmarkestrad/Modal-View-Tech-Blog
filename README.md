@@ -35,7 +35,7 @@ This application is covered by the MIT license.
   
 ## Technologies
 ![badge](https://img.shields.io/badge/-sequelize-orange)
-![badge](https://img.shields.io/badge/-JawsDB-orange)
+![badge](https://img.shields.io/badge/-bcrypt-orange)
 ![badge](https://img.shields.io/badge/-Handlebars-orange)
 ![badge](https://img.shields.io/badge/-MySQL2-orange)
 ![badge](https://img.shields.io/badge/-express-orange)<br>
